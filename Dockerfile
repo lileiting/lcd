@@ -1,2 +1,2 @@
 FROM conda/miniconda3-centos7
-RUN conda install busco
+RUN conda install -c bioconda busco
